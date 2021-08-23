@@ -1,52 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Flemking Portfolio</title>
-  </head>
-  <body>
-    <section class="menu">
-      <div class="logo">
-        <a href="/index.html">
-          <img src="./images/Logo.svg" alt="flemking logo" class="logo" />
-        </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a class="home" href="#">Home</a></li>
-          <li><a class="portfolio" href="#">Portfolio</a></li>
-          <li><a class="about" href="#">About Me</a></li>
-        </ul>
-      </nav>
-      <!-- ex icons emplacement -->
-    </section>
-
-    <main>
-      <div class="hero-section">
-        <img src="./images/Hero.svg" alt="Flemking image" />
-        <h1>Hi, I'm <span class="name">Jean-Baptiste BOHIKI</span></h1>
-        <p>I specialize in UX/UX Design and Responsive Web Design</p>
-      </div>
-    </main>
-
-    <section class="contacts">
-      <a href="mailto:jbbohiki@gmail.com" class="contact">Contact Me</a>
-      <div class="social-icons">
-        <a href="https://facebook.com/jbbohiki">
+function Footer() {
+  return (
+    <section class="py-3">
+      <div class="flex">
+        <a
+          href="https://facebook.com/jbbohiki"
+          className="px-2 transform hover:opacity-70 hover:scale-125 transition duration-500"
+        >
           <svg
             class="icons"
             xmlns="http://www.w3.org/2000/svg"
-            width="36"
-            height="36"
+            width="20"
+            height="20"
             viewBox="0 0 36 36"
           >
             <path
@@ -56,12 +20,15 @@
             />
           </svg>
         </a>
-        <a href="https://twitter.com/j2bbosss">
+        <a
+          href="https://twitter.com/j2bbosss"
+          className="px-2 transform hover:opacity-70 hover:scale-125 transition duration-500"
+        >
           <svg
             class="icons"
             xmlns="http://www.w3.org/2000/svg"
-            width="36.001"
-            height="29.245"
+            width="20"
+            height="20"
             viewBox="0 0 36.001 29.245"
           >
             <path
@@ -71,12 +38,15 @@
             />
           </svg>
         </a>
-        <a href="http://linkedin.com/in/flemking">
+        <a
+          href="http://linkedin.com/in/flemking"
+          className="px-2 transform hover:opacity-70 hover:scale-125 transition duration-500"
+        >
           <svg
             class="icons"
             xmlns="http://www.w3.org/2000/svg"
-            width="35.984"
-            height="35.984"
+            width="20"
+            height="20"
             viewBox="0 0 35.984 35.984"
           >
             <path
@@ -87,12 +57,15 @@
             />
           </svg>
         </a>
-        <a href="https://github.com/flemking">
+        <a
+          href="https://github.com/flemking"
+          className="px-2 transform hover:opacity-70 hover:scale-125 transition duration-500"
+        >
           <svg
             class="icons"
             xmlns="http://www.w3.org/2000/svg"
-            width="35.994"
-            height="29.315"
+            width="20"
+            height="20"
             viewBox="0 0 35.994 29.315"
           >
             <path
@@ -105,5 +78,7 @@
         </a>
       </div>
     </section>
-  </body>
-</html>
+  );
+}
+
+export default Footer;
