@@ -10,7 +10,7 @@ SwiperCore.use([Autoplay, Navigation]);
 function SkillSlider() {
   return (
     <>
-      <h1 className="text-gray-100 text-2xl font-bold my-3">
+      <h1 className="text-gray-200 text-2xl font-bold my-3">
         Tools and Skills I use almost every day
       </h1>
       <Swiper

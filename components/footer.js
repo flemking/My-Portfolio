@@ -6,7 +6,7 @@ function Footer() {
         <a
           href="https://github.com/flemking/certifications/raw/main/CV%20BOHIKI_2.pdf"
           target="_blank"
-          className="px-3 py-1 ml-2 bg-purple-700 rounded-full text-sm font-bold"
+          className="inline-block p-1 ml-2 bg-purple-700 rounded-full text-xs font-bold"
           download
         >
           My Resume

@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div class="text-center text-xl">
+        <div className="text-center text-xl">
           <img
             src="/Hero.svg"
             alt="Flemking image"
@@ -28,7 +28,7 @@ export default function Home() {
           />
           <h1>
             Hi, I'm{" "}
-            <span class="font-extrabold text-3xl text-purple-700 hover:animate-pulse">
+            <span className="font-extrabold text-3xl text-purple-700 hover:animate-pulse">
               JB BOHIKI
             </span>
           </h1>

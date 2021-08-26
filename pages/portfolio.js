@@ -1,4 +1,4 @@
-import { Badge, Box, Image } from "@chakra-ui/react";
+import { Badge, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import Head from "next/head";
 
@@ -10,31 +10,43 @@ function Portfolio() {
   };
   const portfolio = [
     {
+      key: 1,
+      title: "Globe Dico",
+      imageUrl: "https://i.ibb.co/2sd2d2z/gobleedico.png",
+      techs: ["APIs", "React", "Material UI"],
+      url: "https://globedico.flemking.com/",
+    },
+    {
+      key: 2,
       title: "Maison Efa",
       imageUrl: "https://i.ibb.co/zxF1QkR/maisonefa.png",
       techs: ["Custom CSS", "Wordpress"],
       url: "https://flemking.com/maisonefa",
     },
     {
+      key: 3,
       title: "Nike Ecommerce (Unofficial)",
       imageUrl: "https://i.ibb.co/BwpJcTc/ecommerce-website.png",
       techs: ["SASS", "HTML", "JavaScript"],
       url: "https://silly-clarke-af447d.netlify.app/",
     },
     {
+      key: 4,
       title: "Fast Food Website",
       imageUrl: "https://i.ibb.co/wJcc1CY/Fast-food-website.png",
       techs: ["CSS", "HTML", "JavaScript"],
       url: "https://youthful-northcutt-e3473c.netlify.app/",
     },
     {
+      key: 5,
       title: "Pokemon Generator",
       imageUrl: "https://i.ibb.co/6XJ7zDs/Pokemon-App.png",
       techs: ["ChakraUI", "React", "TailwindCSS"],
       url: "https://distracted-lovelace-c52e3a.netlify.app/",
     },
     {
-      title: "Starbucks Destop Landing Page (Unofficial)",
+      key: 6,
+      title: "Starbucks Desktop Landing Page (Unofficial)",
       imageUrl: "https://i.ibb.co/qrB2dnF/Starbucks-Landing-Page.png",
       techs: ["JavaScript", "HTML", "TailwindCSS"],
       url: "https://nostalgic-torvalds-2aeff9.netlify.app/",
@@ -53,42 +65,42 @@ function Portfolio() {
         <title>Portfolio | JB BOHIKI</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="text-center">
+      <div className="text-center min-w-full max-w-full px-1">
         {portfolio.map((site) => (
-          <Box
-            maxW="sm"
-            borderWidth="3px"
-            borderRadius="xl"
-            overflow="hidden"
-            my={10}
+          <div
+            key={site.key}
+            className="min-w-full max-w-10/12 px-1 my-10 rounded-xl border-2 border-purple-700 drop-shadow-xl"
           >
-            <a href={site.url} target="_blank">
-              <Image src={site.imageUrl} alt={`portfolio ${site.title}`} />
+            <a href={site.url} target="_blank" className="w-full">
+              <Image
+                src={site.imageUrl}
+                alt={`portfolio ${site.title}`}
+                className="w-full object-cover rounded"
+              />
             </a>
 
-            <Box p="6">
-              <Box d="flex" alignItems="baseline">
+            <div className="p-6">
+              <div className="flex items-baseline">
                 {site.techs.map((tech) => (
-                  <Badge borderRadius="full" mx="2" px="2" colorScheme="purple">
+                  <Badge
+                    key={tech}
+                    borderRadius="full"
+                    mx="2"
+                    px="2"
+                    colorScheme="purple"
+                  >
                     {tech}
                   </Badge>
                 ))}
-              </Box>
+              </div>
 
-              <Box
-                mt="1"
-                fontWeight="bold"
-                as="h2"
-                fontSize="21"
-                lineHeight="tight"
-                isTruncated
-              >
+              <div className="text-center mt-1 font-bold text-xl">
                 <a href={site.url} target="_blank">
                   {site.title}
                 </a>
-              </Box>
-            </Box>
-          </Box>
+              </div>
+            </div>
+          </div>
         ))}
       </div>
     </motion.main>

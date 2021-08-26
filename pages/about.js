@@ -5,8 +5,6 @@ import {
   AccordionPanel,
   AccordionIcon,
   Box,
-  HStack,
-  VStack,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import Head from "next/head";
@@ -19,7 +17,7 @@ function About() {
     exit: { opacity: 0, x: 0, y: -100 },
   };
   return (
-    <div className="max-w-full text-center">
+    <div className="max-w-full text-center px-1">
       <Head>
         <title>About | JB BOHIKI</title>
         <link rel="icon" href="/favicon.ico" />
@@ -37,7 +35,7 @@ function About() {
           <div className="max-w-full">
             <img
               src="/about_image.jpg"
-              className="p-4 max-w-sm rounded-full object-cover"
+              className="p-4 max-w-full rounded-full object-cover"
             />
           </div>
           <div className="font-semibold">
@@ -125,14 +123,14 @@ function About() {
               <a
                 href="https://github.com/flemking/certifications"
                 target="_blank"
-                className="px-6 py-2 mt-4 bg-purple-700 rounded-full text-sm font-bold transform transition duration-500 hover:scale-90 hover:animate-pulse"
+                className="inline-block px-6 py-2 mt-4 bg-purple-700 rounded-full text-sm font-bold transform transition duration-500 hover:scale-90 hover:animate-pulse"
               >
                 Check my Certifications
               </a>
               <a
                 href="https://github.com/flemking/certifications/raw/main/CV%20BOHIKI_2.pdf"
                 target="_blank"
-                className="px-6 py-2 mt-4 bg-purple-700 rounded-full text-sm font-bold transform transition duration-500 hover:scale-90 hover:animate-pulse"
+                className="inline-block px-6 py-2 mt-4 bg-purple-700 rounded-full text-sm font-bold transform transition duration-500 hover:scale-90 hover:animate-pulse"
                 download
               >
                 My Resume
