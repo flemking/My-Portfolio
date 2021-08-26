@@ -1,5 +1,6 @@
 import { Badge, Box, Image } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 function Portfolio() {
   const variants = {
@@ -48,6 +49,10 @@ function Portfolio() {
       transition={{ type: "linear" }} // Set the transition to linear
       className=""
     >
+      <Head>
+        <title>Portfolio | JB BOHIKI</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="text-center">
         {portfolio.map((site) => (
           <Box

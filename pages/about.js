@@ -9,6 +9,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import Head from "next/head";
 import SkillSlider from "../components/skillSlider";
 
 function About() {
@@ -19,6 +20,10 @@ function About() {
   };
   return (
     <div className="max-w-full text-center">
+      <Head>
+        <title>About | JB BOHIKI</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <motion.main
         variants={variants} // Pass the variant object into Framer Motion
         initial="hidden" // Set the initial state to variants.hidden

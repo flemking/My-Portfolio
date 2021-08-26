@@ -5,7 +5,17 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Flemking | JB BOHIKI Portfolio</title>
+        <title>Flemking | JB BOHIKI</title>
+        <meta
+          name="description"
+          content="JB BOHIKI | Flemking PortfolioFrontend Web Developer"
+        />
+        <meta
+          name="keywords"
+          content="frontend,web,developer,react,next,ui,ux,design,professional,hire,html,css,javascript,js,sass,tailwind"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="JB BOHIKI FLEMKING" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
