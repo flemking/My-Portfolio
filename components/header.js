@@ -1,9 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 
 function Header() {
   return (
     <header className="flex flex-col items-center justify-between w-full max-w-4xl mx-auto">
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <div class="flex-start">
         <Link href="/">
           <a>

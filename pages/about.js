@@ -32,13 +32,13 @@ function About() {
       >
         <SkillSlider />
         <div className="flex flex-col justify-between items-center md:flex-row py-10 ">
-          <div className="max-w-full">
+          <div className="w-full max-w-sm lg:max-w-full">
             <img
               src="/about_image.jpg"
-              className="p-4 max-w-full rounded-full object-cover"
+              className="p-4 rounded-full object-cover"
             />
           </div>
-          <div className="font-semibold">
+          <div className="font-semibold w-full min-w-1/2">
             <Accordion defaultIndex={[0]} allowToggle className="w-full px-7">
               <AccordionItem>
                 <h2>

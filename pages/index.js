@@ -20,11 +20,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="text-center text-xl">
+        <div className="text-center text-xl flex flex-col justify-center items-center">
           <img
             src="/Hero.svg"
             alt="Flemking image"
-            className="w-10/12 max-w-2xl my-3 animate-bounce-slow"
+            className="w-10/12 max-w-xl my-3 animate-bounce-slow"
           />
           <h1>
             Hi, I'm{" "}
