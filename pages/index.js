@@ -22,13 +22,13 @@ export default function Home() {
       <main>
         <div className="text-center text-xl flex flex-col justify-center items-center">
           <img
-            src="/Hero.svg"
+            src="/Hero.png"
             alt="Flemking image"
             className="w-10/12 max-w-xl my-3 animate-bounce-slow"
           />
           <h1>
             Hi, I'm{" "}
-            <span className="font-extrabold text-3xl text-purple-700 hover:animate-pulse">
+            <span className="font-extrabold text-3xl text-purple-700 hover:text-4xl hover:animate-pulse">
               JB BOHIKI
             </span>
           </h1>

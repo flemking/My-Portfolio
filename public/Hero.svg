@@ -108,7 +108,7 @@
   </g>
   <text id="Patiently_waiting_for_the_next_challenge_or_the_next_big_project" data-name="Patiently waiting for
 the  next challenge
-or the next big project" transform="translate(171.089 54)" fill="#212121" font-size="24" font-family="Montserrat-LightItalic, Montserrat" font-weight="300" font-style="italic" letter-spacing="0.006em"><tspan x="-123.096" y="0">Patiently waiting for</tspan><tspan x="-116.304" y="40" xml:space="preserve">the  next challenge</tspan><tspan x="-133.608" y="80">or the next big project</tspan></text>
+or the next big project" transform="translate(171.089 54)" fill="#212121" font-size="24" font-family="Montserrat" font-weight="300" font-style="italic" letter-spacing="0.006em"><tspan x="-123.096" y="0">Patiently waiting for</tspan><tspan x="-116.304" y="40" xml:space="preserve">the  next challenge</tspan><tspan x="-133.608" y="80">or the next big project</tspan></text>
   <g id="Groupe_3" data-name="Groupe 3" transform="translate(-296.411 -568)">
     <g data-type="innerShadowGroup">
       <g transform="matrix(1, 0, 0, 1, 296.41, 568)" filter="url(#Rectangle_7)">
@@ -119,7 +119,7 @@ or the next big project" transform="translate(171.089 54)" fill="#212121" font-s
       </g>
     </g>
     <path id="Icon_material-web" data-name="Icon material-web" d="M32.1,6H6.233A3.229,3.229,0,0,0,3.016,9.233L3,28.63a3.242,3.242,0,0,0,3.233,3.233H32.1a3.242,3.242,0,0,0,3.233-3.233V9.233A3.242,3.242,0,0,0,32.1,6ZM24.014,28.63H6.233V22.165H24.014Zm0-8.082H6.233V14.082H24.014ZM32.1,28.63H25.63V14.082H32.1Z" transform="translate(840.607 744.491)" fill="#609"/>
-    <text id="UI_UX_Designer" data-name="UI/UX Designer" transform="translate(967.415 770)" fill="#212121" font-size="20" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-77.9" y="0">UI/UX Designer</tspan></text>
+    <text id="UI_UX_Designer" data-name="UI/UX Designer" transform="translate(967.415 770)" fill="#212121" font-size="20" font-family="Montserrat" font-weight="500"><tspan x="-77.9" y="0">UI/UX Designer</tspan></text>
   </g>
   <g id="Groupe_4" data-name="Groupe 4" transform="translate(-332.911 -347)">
     <g data-type="innerShadowGroup">
@@ -130,7 +130,7 @@ or the next big project" transform="translate(171.089 54)" fill="#212121" font-s
         <rect id="Rectangle_6-4" data-name="Rectangle 6" width="207" height="50" rx="25" transform="translate(506.09 452)" fill="#fff"/>
       </g>
     </g>
-    <text id="App_Designer" data-name="App Designer" transform="translate(958 832)" fill="#212121" font-size="20" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-69.79" y="0">App Designer</tspan></text>
+    <text id="App_Designer" data-name="App Designer" transform="translate(958 832)" fill="#212121" font-size="20" font-family="Montserrat" font-weight="500"><tspan x="-69.79" y="0">App Designer</tspan></text>
     <path id="Icon_awesome-mobile-alt" data-name="Icon awesome-mobile-alt" d="M13.74,0H2.425A2.425,2.425,0,0,0,0,2.425V23.438a2.425,2.425,0,0,0,2.425,2.425H13.74a2.425,2.425,0,0,0,2.425-2.425V2.425A2.425,2.425,0,0,0,13.74,0ZM8.082,24.246A1.616,1.616,0,1,1,9.7,22.63,1.615,1.615,0,0,1,8.082,24.246Zm5.658-5.455a.608.608,0,0,1-.606.606H3.031a.608.608,0,0,1-.606-.606V3.031a.608.608,0,0,1,.606-.606h10.1a.608.608,0,0,1,.606.606Z" transform="translate(859.772 813.712)" fill="#609"/>
   </g>
   <g id="Groupe_2" data-name="Groupe 2" transform="translate(-828.5 -162.904)">
@@ -142,7 +142,7 @@ or the next big project" transform="translate(171.089 54)" fill="#212121" font-s
         <rect id="Rectangle_8-4" data-name="Rectangle 8" width="271" height="50" rx="25" transform="translate(6.5 502.1)" fill="#fff"/>
       </g>
     </g>
-    <text id="Frontend_developer" data-name="Frontend developer" transform="translate(987.5 697.698)" fill="#212121" font-size="20" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-100.4" y="0">Frontend developer</tspan></text>
+    <text id="Frontend_developer" data-name="Frontend developer" transform="translate(987.5 697.698)" fill="#212121" font-size="20" font-family="Montserrat" font-weight="500"><tspan x="-100.4" y="0">Frontend developer</tspan></text>
     <g id="Icon_feather-code" data-name="Icon feather-code" transform="translate(852.3 682.96)">
       <path id="Tracé_2" data-name="Tracé 2" d="M24,24.475l7.738-7.738L24,9" transform="translate(-5.946 -9)" fill="none" stroke="#609" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       <path id="Tracé_3" data-name="Tracé 3" d="M10.738,9,3,16.738l7.738,7.738" transform="translate(-3 -9)" fill="none" stroke="#609" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>

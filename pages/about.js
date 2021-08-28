@@ -55,7 +55,7 @@ function About() {
                     like to put at your disposal my knowledge in these different
                     fields. I have been working as a freelancer in these fields
                     for 4 years and I am convinced that the skills and
-                    experiences I have acquired during these last 4 years could
+                    experiences I have acquired during these last years could
                     make me an ideal candidate ❤✔
                   </p>
                 </AccordionPanel>
@@ -88,7 +88,7 @@ function About() {
                 <AccordionPanel pb={4}>
                   <p>
                     ✔ Javascript ✔ CSS ✔ SASS ✔ TailwindCSS ✔ Django ✔ PHP ✔
-                    MySQL / GIT
+                    MySQL ✔ GIT
                   </p>
                   <p>✔ React.js ✔ Next.js ✔ React Native</p>
                   <p>✔ E-commerce ✔ Shopify ✔ WordPress ✔ WebFlow</p>
@@ -97,7 +97,7 @@ function About() {
                     ✔ Strategic thinking ✔ Storytelling ✔ Graphic design ✔ Brand
                     design
                   </p>
-                  <p>✔ Creation and optimization of advertising campaigns.</p>
+                  <p>✔ Creation and optimization of advertising campaigns</p>
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -113,9 +113,9 @@ function About() {
                   <p>✔ Frontend Web Developer at Freelance | 2018 - present</p>
                   <p>
                     ✔ Community Manager / Marketing at Specialist ARLICA &
-                    AUCERPI CONSULTANT | 2020 - 2021 Digital
+                    AUCERPI CONSULTANT | 2020 - 2021
                   </p>
-                  <p>✔ Marketing Expert Freelance | 2019 - present</p>
+                  <p>✔ Digital Marketing Expert Freelance | 2019 - present</p>
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>

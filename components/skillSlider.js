@@ -39,7 +39,7 @@ function SkillSlider() {
         className=""
       >
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -56,7 +56,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -79,7 +79,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -112,7 +112,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -125,7 +125,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -140,7 +140,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -153,7 +153,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -163,7 +163,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -196,7 +196,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -247,7 +247,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"
@@ -268,7 +268,7 @@ function SkillSlider() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-20 h-20 bg-gray-300 bg-opacity-10 rounded grid">
+          <div className="w-20 h-20 bg-gray-300 hover:bg-purple-900 bg-opacity-10 rounded grid">
             <svg
               viewBox="0 0 128 128"
               className="relative w-2/3 place-self-center"

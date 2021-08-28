@@ -21,7 +21,7 @@ function Header() {
         <Link href="/">
           <a>
             <Image
-              src="/Logo.svg"
+              src="/Logo.png"
               alt="flemking logo"
               width={200}
               height={50}
