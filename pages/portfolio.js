@@ -10,6 +10,13 @@ function Portfolio() {
   };
   const portfolio = [
     {
+      key: 0,
+      title: "Python Scripts and Web Apps",
+      imageUrl: "https://i.ibb.co/RCcMQ6y/code-gf7ea0c849-1280.png",
+      techs: ["APIs", "Python", "Automation", "AI", "Scripting"],
+      url: "https://github.com/flemking",
+    },
+    {
       key: 1,
       title: "Globe Dico",
       imageUrl: "https://i.ibb.co/2sd2d2z/gobleedico.png",
@@ -44,13 +51,13 @@ function Portfolio() {
       techs: ["ChakraUI", "React", "TailwindCSS"],
       url: "https://yosemitelabs-frontend-test.vercel.app",
     },
-    // {
-    //   key: 6,
-    //   title: "Restaurant Website",
-    //   imageUrl: "https://i.ibb.co/BjHwH8Z/Resto-Website.png",
-    //   techs: ["CSS", "HTML", "JavaScript"],
-    //   url: "https://distracted-lovelace-c52e3a.netlify.app/",
-    // },
+    {
+      key: 6,
+      title: "Oscargroupe Website",
+      imageUrl: "https://i.ibb.co/hg60Cm4/oscargroupe.png",
+      techs: ["Custom CSS", "WordPress", "Client"],
+      url: "https://oscargroupe.com",
+    },
     {
       key: 7,
       title: "Starbucks Desktop Landing Page (Unofficial)",

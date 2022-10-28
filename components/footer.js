@@ -2,9 +2,9 @@ function Footer() {
   return (
     <section class="px-1 py-3 flex mx-auto justify-between w-full max-w-2xl">
       <p className="text-sm font-semibold">
-        © 2021 JB BOHIKI |{" "}
+        © 2022 JB BOHIKI |{" "}
         <a
-          href="https://github.com/flemking/certifications/raw/main/CV%20BOHIKI_2.pdf"
+          href="https://github.com/flemking/certifications/raw/74b4d70a3f8f38c4b833e4ceb51cb4e3f9126ebe/CV%20Bohiki%20JB%20-%20en.pdf"
           target="_blank"
           className="inline-block p-1 ml-2 bg-purple-700 rounded-full text-xs font-bold"
           download
@@ -14,7 +14,7 @@ function Footer() {
       </p>
       <div class="flex">
         <a
-          href="https://facebook.com/jbbohiki"
+          href="https://facebook.com/jbbbohiki"
           target="_blank"
           className="px-2 transform hover:opacity-70 hover:scale-125 transition duration-500"
         >
@@ -33,7 +33,7 @@ function Footer() {
           </svg>
         </a>
         <a
-          href="https://twitter.com/j2bbosss"
+          href="https://twitter.com/theflemking"
           target="_blank"
           className="px-2 transform hover:opacity-70 hover:scale-125 transition duration-500"
         >

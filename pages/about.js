@@ -34,7 +34,7 @@ function About() {
         <div className="flex flex-col justify-between items-center md:flex-row py-10 ">
           <div className="w-full max-w-sm lg:max-w-full">
             <img
-              src="/about_image.jpg"
+              src="/about_image.png"
               className="p-4 rounded-full object-cover"
             />
           </div>
@@ -51,10 +51,10 @@ function About() {
                 </h2>
                 <AccordionPanel pb={4}>
                   <p>
-                    As a Web Developer and Digital Marketing Expert, I would
+                    As a Web Developer and Python Developer, I would
                     like to put at your disposal my knowledge in these different
                     fields. I have been working as a freelancer in these fields
-                    for 4 years and I am convinced that the skills and
+                    for 5+ years and I am convinced that the skills and
                     experiences I have acquired during these last years could
                     make me an ideal candidate ❤✔
                   </p>
@@ -72,6 +72,7 @@ function About() {
                 <AccordionPanel pb={4}>
                   <p>✔UI/UX Design</p>
                   <p>✔Frontend Web Development</p>{" "}
+                  <p>✔Python and BackEnd Web Development</p>{" "}
                   <p>✔Digital Paid Marketing (Facebook Ads, Google Ads...)</p>
                 </AccordionPanel>
               </AccordionItem>
@@ -87,11 +88,11 @@ function About() {
                 </h2>
                 <AccordionPanel pb={4}>
                   <p>
-                    ✔ Javascript ✔ CSS ✔ SASS ✔ TailwindCSS ✔ Django ✔ PHP ✔
+                    ✔ Javascript ✔ CSS ✔ PYTHON ✔ TailwindCSS ✔ Django ✔ PHP ✔
                     MySQL ✔ GIT
                   </p>
-                  <p>✔ React.js ✔ Next.js ✔ React Native</p>
-                  <p>✔ E-commerce ✔ Shopify ✔ WordPress ✔ WebFlow</p>
+                  <p>✔ React.js ✔ Next.js ✔ Chakra UI</p>
+                  <p>✔ E-commerce ✔ Shopify ✔ WordPress ✔ WebFlow ✔ Bubble</p>
                   <p>✔ Adobe Photoshop ✔ Adobe Illustrator ✔ Canva.com</p>
                   <p>
                     ✔ Strategic thinking ✔ Storytelling ✔ Graphic design ✔ Brand
@@ -110,12 +111,9 @@ function About() {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
+                  <p>✔ WordPress Engineer at WPBUFFS | 2021 - present</p>
                   <p>✔ Frontend Web Developer at Freelance | 2018 - present</p>
-                  <p>
-                    ✔ Community Manager / Marketing at Specialist ARLICA &
-                    AUCERPI CONSULTANT | 2020 - 2021
-                  </p>
-                  <p>✔ Digital Marketing Expert Freelance | 2019 - present</p>
+                  <p>✔ Digital Marketing Expert Freelance | 2019 - 2021</p>
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
@@ -128,7 +126,7 @@ function About() {
                 Check my Certifications
               </a>
               <a
-                href="https://github.com/flemking/certifications/raw/main/CV%20BOHIKI_2.pdf"
+                href="https://github.com/flemking/certifications/raw/74b4d70a3f8f38c4b833e4ceb51cb4e3f9126ebe/CV%20Bohiki%20JB%20-%20en.pdf"
                 target="_blank"
                 className="inline-block px-6 py-2 mt-4 bg-purple-700 rounded-full text-sm font-bold transform transition duration-500 hover:scale-90 hover:animate-pulse"
                 download
