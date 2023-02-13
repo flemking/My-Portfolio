@@ -39,6 +39,9 @@ function Header() {
           <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
             <Link href="/portfolio">Portfolio</Link>
           </li>
+          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
+            <Link href="https://flemking.com">Blog</Link>
+          </li>
         </ul>
       </nav>
     </header>
