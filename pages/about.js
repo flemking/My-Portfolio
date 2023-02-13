@@ -35,7 +35,7 @@ function About() {
           <div className="w-full max-w-sm lg:max-w-full">
             <img
               src="/about_image.png"
-              className="p-4 rounded-full object-cover hover:animate-spin"
+              className="relative rounded-full object-cover hover:animate-spin-slow image--animation"
             />
           </div>
           <div className="font-semibold w-full min-w-1/2">

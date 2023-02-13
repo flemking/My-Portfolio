@@ -9,6 +9,7 @@ module.exports = {
       },
       animation: {
         "bounce-slow": "bounce 5s infinite",
+        "spin-slow": "spin 5s infinite",
       },
     },
   },

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .image--animation {
+    position: relative;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    background: #171515;
+    border-radius: 50%;
+    color: #666;
+    transition: 0.5s;
+  }
+  .image--animation:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #d4d4d4;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+
+  .image--animation:hover:before {
+    transform: scale(1.5);
+    box-shadow: 0 0 20px #d4d4d4;
+    filter: blur(3px);
+  }
+
+  .image--animation:hover {
+    box-shadow: 0 0 20px #d4d4d4;
+    text-shadow: 0 0 20px #d4d4d4;
+  }
+}

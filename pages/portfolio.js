@@ -20,6 +20,7 @@ function Portfolio() {
         "Express.js",
         "Scraping Bot",
         "MongoDB",
+        "Stripe Payments",
         "Client",
       ],
       url: "https://bot-vinted.com",
