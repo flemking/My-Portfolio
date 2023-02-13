@@ -35,7 +35,7 @@ function About() {
           <div className="w-full max-w-sm lg:max-w-full">
             <img
               src="/about_image.png"
-              className="p-4 rounded-full object-cover"
+              className="p-4 rounded-full object-cover hover:animate-spin"
             />
           </div>
           <div className="font-semibold w-full min-w-1/2">
@@ -51,12 +51,12 @@ function About() {
                 </h2>
                 <AccordionPanel pb={4}>
                   <p>
-                    As a Web Developer and Python Developer, I would
+                    As a Fullstack Web Developer and Python Developer, I would
                     like to put at your disposal my knowledge in these different
-                    fields. I have been working as a freelancer in these fields
-                    for 5+ years and I am convinced that the skills and
-                    experiences I have acquired during these last years could
-                    make me an ideal candidate ❤✔
+                    fields. I have been working in these fields for 6+ years and
+                    I am convinced that the skills and experiences I have
+                    acquired during these last years could make me an ideal
+                    candidate ❤✔
                   </p>
                 </AccordionPanel>
               </AccordionItem>
@@ -70,10 +70,10 @@ function About() {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
+                  <p>✔Frontend and BackEnd Web Development</p>{" "}
+                  <p>✔Python and Node.js Scripts</p>
                   <p>✔UI/UX Design</p>
-                  <p>✔Frontend Web Development</p>{" "}
-                  <p>✔Python and BackEnd Web Development</p>{" "}
-                  <p>✔Digital Paid Marketing (Facebook Ads, Google Ads...)</p>
+                  <p>✔Digital Marketing</p>
                 </AccordionPanel>
               </AccordionItem>
 
@@ -88,17 +88,21 @@ function About() {
                 </h2>
                 <AccordionPanel pb={4}>
                   <p>
-                    ✔ Javascript ✔ CSS ✔ PYTHON ✔ TailwindCSS ✔ Django ✔ PHP ✔
-                    MySQL ✔ GIT
+                    ✔ Javascript ✔ TypeScript ✔ CSS ✔ PYTHON ✔ PHP ✔ SQL ✔ NOSQL
+                    ✔ GIT
                   </p>
-                  <p>✔ React.js ✔ Next.js ✔ Chakra UI</p>
-                  <p>✔ E-commerce ✔ Shopify ✔ WordPress ✔ WebFlow ✔ Bubble</p>
-                  <p>✔ Adobe Photoshop ✔ Adobe Illustrator ✔ Canva.com</p>
+                  <p>
+                    ✔ React.js ✔ Next.js ✔ Express.js ✔ Chakra/Material UI ✔
+                    TailwindCSS ✔ Django
+                  </p>
+                  <p>
+                    ✔ E-commerce Shops ✔ Shopify ✔ WordPress ✔ WebFlow ✔ Bubble
+                  </p>
+                  <p>✔Figma ✔ Adobe Photoshop ✔ Adobe XD ✔ Canva.com</p>
                   <p>
                     ✔ Strategic thinking ✔ Storytelling ✔ Graphic design ✔ Brand
                     design
                   </p>
-                  <p>✔ Creation and optimization of advertising campaigns</p>
                 </AccordionPanel>
               </AccordionItem>
               <AccordionItem>
@@ -112,7 +116,7 @@ function About() {
                 </h2>
                 <AccordionPanel pb={4}>
                   <p>✔ WordPress Engineer at WPBUFFS | 2021 - present</p>
-                  <p>✔ Frontend Web Developer at Freelance | 2018 - present</p>
+                  <p>✔ FullStack Web Developer at Freelance | 2018 - present</p>
                   <p>✔ Digital Marketing Expert Freelance | 2019 - 2021</p>
                 </AccordionPanel>
               </AccordionItem>

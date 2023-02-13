@@ -33,7 +33,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="mx-1">
-            I specialize in UI/UX Design, Python and Web Development
+            I specialize in UI/UX Design, Python and FullStack Web Development
           </p>
           <Link legacyBehavior href="/portfolio">
             <a className="inline-block px-6 py-2 mt-4 bg-purple-700 rounded-full text-sm font-bold transform transition duration-500 hover:scale-90 hover:animate-pulse">

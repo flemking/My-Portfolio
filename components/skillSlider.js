@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 
 // import Swiper core and required modules
-import SwiperCore, { Autoplay, Navigation } from "swiper";
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
 // install Swiper modules
 SwiperCore.use([Autoplay, Navigation]);
@@ -16,11 +16,15 @@ function SkillSlider() {
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
-        centeredSlides={true}
+        centeredSlides={false}
         autoplay={{
           delay: 2500,
           disableOnInteraction: true,
         }}
+        loop={true}
+        // pagination={{
+        //   clickable: true,
+        // }}
         breakpoints={{
           640: {
             slidesPerView: 3,
@@ -35,7 +39,7 @@ function SkillSlider() {
             spaceBetween: 50,
           },
         }}
-        navigation={true}
+        // navigation={true}
         className=""
       >
         <SwiperSlide>

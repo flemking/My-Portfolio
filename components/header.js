@@ -19,31 +19,25 @@ function Header() {
       </Head>
       <div class="flex-start">
         <Link href="/">
-            <Image
-              src="/Logo.png"
-              alt="flemking logo"
-              width={200}
-              height={50}
-              className="transform -translate-x-2/12"
-            />
+          <Image
+            src="/Logo.png"
+            alt="flemking logo"
+            width={200}
+            height={50}
+            className="transform -translate-x-2/12"
+          />
         </Link>
       </div>
       <nav className="font-bold">
         <ul className="flex">
           <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
-            <Link href="/">
-              Home
-            </Link>
+            <Link href="/">Home</Link>
           </li>
           <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
-            <Link href="/about">
-              About Me
-            </Link>
+            <Link href="/about">About Me</Link>
           </li>
           <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
-            <Link href="/portfolio">
-              Portfolio
-            </Link>
+            <Link href="/portfolio">Portfolio</Link>
           </li>
         </ul>
       </nav>

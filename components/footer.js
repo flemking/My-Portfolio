@@ -2,7 +2,7 @@ function Footer() {
   return (
     <section class="px-1 py-3 flex mx-auto justify-between w-full max-w-2xl">
       <p className="text-sm font-semibold">
-        © 2022 JB BOHIKI |{" "}
+        © 2023 JB BOHIKI |{" "}
         <a
           href="https://github.com/flemking/certifications/raw/74b4d70a3f8f38c4b833e4ceb51cb4e3f9126ebe/CV%20Bohiki%20JB%20-%20en.pdf"
           target="_blank"
