@@ -11,12 +11,19 @@ function Portfolio() {
   };
   const portfolio = [
     {
+      key: 10,
+      title: "Earthquakes Datas",
+      imageUrl: "https://i.ibb.co/5MHVYr8/earthquakes-geo-globe-projects.png",
+      techs: ["Vite", "React.js", "TailwindCSS", "MapBox GL JS", "USGS API"],
+      url: "https://earthquakes-globe.netlify.app/",
+    },
+    {
       key: 9,
       title: "Bot-Vinted",
       imageUrl: "https://i.ibb.co/Vv0hPK3/bot-vinted-project.png",
       techs: [
         "React.js",
-        "Tailwind",
+        "TailwindCSS",
         "Express.js",
         "Scraping Bot",
         "MongoDB",

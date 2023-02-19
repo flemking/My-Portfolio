@@ -4,7 +4,7 @@ function Footer() {
       <p className="text-sm font-semibold">
         © 2023 JB BOHIKI |{" "}
         <a
-          href="https://github.com/flemking/certifications/raw/74b4d70a3f8f38c4b833e4ceb51cb4e3f9126ebe/CV%20Bohiki%20JB%20-%20en.pdf"
+          href="https://docs.google.com/document/d/1Mdd58VT0gr1QUSY_QvYgJ7dFTamvGjrivEmQGUJVAgc/edit"
           target="_blank"
           className="inline-block p-1 ml-2 bg-purple-700 rounded-full text-xs font-bold"
           download

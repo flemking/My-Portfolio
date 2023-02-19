@@ -30,16 +30,16 @@ function Header() {
       </div>
       <nav className="font-bold">
         <ul className="flex">
-          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
+          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700 active:text-purple-700">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
+          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700 active:text-purple-700">
             <Link href="/about">About Me</Link>
           </li>
-          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
+          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700 active:text-purple-700">
             <Link href="/portfolio">Portfolio</Link>
           </li>
-          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700">
+          <li className="p-2 transform transition duration-500 hover:scale-125 hover:text-purple-700 active:text-purple-700">
             <Link href="https://flemking.com">Blog</Link>
           </li>
         </ul>

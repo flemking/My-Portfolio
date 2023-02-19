@@ -32,7 +32,7 @@ function About() {
       >
         <SkillSlider />
         <div className="flex flex-col justify-between items-center md:flex-row py-10 ">
-          <div className="w-full max-w-sm lg:max-w-full">
+          <div className="w-full max-w-sm lg:max-w-full p-5">
             <img
               src="/about_image.png"
               className="relative rounded-full object-cover hover:animate-spin-slow image--animation"
@@ -130,7 +130,7 @@ function About() {
                 Check my Certifications
               </a>
               <a
-                href="https://github.com/flemking/certifications/raw/74b4d70a3f8f38c4b833e4ceb51cb4e3f9126ebe/CV%20Bohiki%20JB%20-%20en.pdf"
+                href="https://docs.google.com/document/d/1Mdd58VT0gr1QUSY_QvYgJ7dFTamvGjrivEmQGUJVAgc/edit"
                 target="_blank"
                 className="inline-block px-6 py-2 mt-4 bg-purple-700 rounded-full text-sm font-bold transform transition duration-500 hover:scale-90 hover:animate-pulse"
                 download
