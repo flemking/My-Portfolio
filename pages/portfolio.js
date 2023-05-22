@@ -12,7 +12,7 @@ function Portfolio() {
   const portfolio = [
     {
       key: 11,
-      title: "JSearch - Job Saerch App",
+      title: "JSearch - Job Search App",
       imageUrl: "https://i.ibb.co/m6DbjHH/JSearch-app.png",
       techs: ["React Native", "Expo Router", "Google Jobs API"],
       url: "https://expo.dev/@flemking/react-native-jsearch?serviceType=classic&distribution=expo-go",
