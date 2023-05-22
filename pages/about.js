@@ -92,8 +92,8 @@ function About() {
                     ✔ GIT
                   </p>
                   <p>
-                    ✔ React.js ✔ Next.js ✔ Express.js ✔ Chakra/Material UI ✔
-                    TailwindCSS ✔ Django
+                    ✔ React.js ✔ Next.js ✔ React Native ✔ Express.js ✔
+                    Chakra/Material UI ✔ TailwindCSS ✔ Django
                   </p>
                   <p>
                     ✔ E-commerce Shops ✔ Shopify ✔ WordPress ✔ WebFlow ✔ Bubble

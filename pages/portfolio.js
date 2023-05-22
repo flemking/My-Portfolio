@@ -11,8 +11,15 @@ function Portfolio() {
   };
   const portfolio = [
     {
+      key: 11,
+      title: "JSearch - Job Saerch App",
+      imageUrl: "https://i.ibb.co/m6DbjHH/JSearch-app.png",
+      techs: ["React Native", "Expo Router", "Google Jobs API"],
+      url: "https://expo.dev/@flemking/react-native-jsearch?serviceType=classic&distribution=expo-go",
+    },
+    {
       key: 10,
-      title: "Earthquakes Datas",
+      title: "Earthquakes Globe",
       imageUrl: "https://i.ibb.co/5MHVYr8/earthquakes-geo-globe-projects.png",
       techs: ["Vite", "React.js", "TailwindCSS", "MapBox GL JS", "USGS API"],
       url: "https://earthquakes-globe.netlify.app/",
