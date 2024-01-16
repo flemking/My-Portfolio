@@ -11,6 +11,13 @@ function Portfolio() {
   };
   const portfolio = [
     {
+      key: 12,
+      title: "Supermarches.bj",
+      imageUrl: "https://i.ibb.co/qYYYKzs/supermarches.png",
+      techs: ["WordPress", "Paiement Integration", "Marketplace"],
+      url: "https://supermarches.bj",
+    },
+    {
       key: 11,
       title: "JSearch - Job Search App",
       imageUrl: "https://i.ibb.co/m6DbjHH/JSearch-app.png",
