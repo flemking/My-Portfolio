@@ -1,15 +1,40 @@
-import { Badge } from "@chakra-ui/react";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import Head from "next/head";
-import Image from "next/image";
+import ProjectCard from "../components/projectCard";
+
+// Derive a live screenshot from a project's URL (keyless, renders on first load).
+const shot = (url) =>
+  `https://image.thum.io/get/width/700/crop/400/noanimate/${url}`;
 
 function Portfolio() {
+  const reduceMotion = useReducedMotion();
   const variants = {
     hidden: { opacity: 0, x: -200, y: 0 },
     enter: { opacity: 1, x: 0, y: 0 },
     exit: { opacity: 0, x: 0, y: -100 },
   };
   const portfolio = [
+    {
+      key: 15,
+      title: "Exportbenin.bj — APIEx Export Platform",
+      imageUrl: shot("https://exportbenin.bj"),
+      techs: ["Next.js", "AI Chatbot", "Exporter Directory", "Gov / UN", "Client"],
+      url: "https://exportbenin.bj",
+    },
+    {
+      key: 14,
+      title: "Investbenin.bj — Investment Ecosystem",
+      imageUrl: shot("https://investbenin.bj"),
+      techs: ["Web Platform", "Investment Ecosystem", "Government", "Client"],
+      url: "https://investbenin.bj",
+    },
+    {
+      key: 13,
+      title: "CRM & Automation Systems",
+      placeholder: "Automation Stack",
+      techs: ["Zoho", "HubSpot", "GHL", "n8n", "Make", "Automation"],
+      url: "https://www.linkedin.com/in/flemking",
+    },
     {
       key: 12,
       title: "Supermarches.bj",
@@ -124,46 +149,25 @@ function Portfolio() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="text-center min-w-full max-w-full">
-        {portfolio.map((site) => (
-          <div
-            key={site.key}
-            className="min-w-full bg-purple-800 max-w-10/12 p-1 my-10 rounded-xl border-2 border-purple-700 drop-shadow-xl"
+        <div className="pt-6 pb-2">
+          <p className="uppercase tracking-widest text-xs text-purple-300 mb-3">
+            2017 &mdash; 2026
+          </p>
+          <h1
+            className={`text-4xl sm:text-5xl font-bold inline-block bg-gradient-to-r from-purple-400 via-fuchsia-500 to-purple-600 bg-clip-text text-transparent ${
+              reduceMotion ? "" : "animate-gradient"
+            }`}
+            style={{ backgroundSize: "200% auto" }}
           >
-            <a href={site.url} target="_blank" className="w-full">
-              <Image
-                src={site.imageUrl}
-                alt={`portfolio ${site.title}`}
-                width={700}
-                height={300}
-                layout="responsive"
-                className="w-full object-cover rounded"
-                placeholder="blur"
-                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mO8XA8AAisBVHpjGM0AAAAASUVORK5CYII="
-              />
-            </a>
-
-            <div className="p-6">
-              <div className="flex flex-wrap items-center justify-center">
-                {site.techs.map((tech) => (
-                  <Badge
-                    key={tech}
-                    borderRadius="full"
-                    m="2"
-                    px="2"
-                    colorScheme="purple"
-                  >
-                    {tech}
-                  </Badge>
-                ))}
-              </div>
-
-              <div className="text-center mt-1 font-bold text-xl underline">
-                <a href={site.url} target="_blank">
-                  {site.title}
-                </a>
-              </div>
-            </div>
-          </div>
+            Selected Work
+          </h1>
+          <p className="mt-3 text-gray-300 max-w-xl mx-auto">
+            Government platforms, automation systems, and product builds &mdash;
+            newest first.
+          </p>
+        </div>
+        {portfolio.map((site, index) => (
+          <ProjectCard key={site.key} site={site} index={index} />
         ))}
       </div>
     </motion.main>
